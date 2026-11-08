@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": 1,
+  "routerDigest": "84d63ef80f43177b8121dc0aa388cdc19ea5cb5a3effbf64e593f4dee344f694",
+  "stages": [
+    "triage",
+    "refine",
+    "propose"
+  ],
+  "autoImplement": false,
+  "completionEnabled": false,
+  "productChangeEnabled": false,
+  "backgroundWorkflows": []
+}
