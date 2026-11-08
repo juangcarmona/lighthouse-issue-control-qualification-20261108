@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "capability": {
+    "id": "labels",
+    "provider": "github",
+    "version": "4"
+  },
+  "desiredHash": "cdf151b5d28fd123ac00d8dccdb632c1c8fdf648691196889c981564ed80b055",
+  "observedHash": "383913f7dd9c7aba13c6d8b59f5835239fd0f95571d604074431b7ae2a57052f",
+  "targetHash": "383913f7dd9c7aba13c6d8b59f5835239fd0f95571d604074431b7ae2a57052f",
+  "operations": [],
+  "blockedOperations": [],
+  "verified": true
+}
