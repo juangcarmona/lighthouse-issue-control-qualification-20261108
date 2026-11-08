@@ -29,7 +29,7 @@ on:
         required: true
         default: propose
         type: choice
-        options: [triage, refine, propose]
+        options: [triage, refine, propose, implement]
       workflow:
         description: Select the authorized workflow
         required: true
@@ -76,8 +76,8 @@ on:
 permissions:
   contents: read
 env:
-  LIGHTHOUSE_ENABLED_STAGES: triage,refine,propose
-  LIGHTHOUSE_AUTO_IMPLEMENT: false
+  LIGHTHOUSE_ENABLED_STAGES: triage,refine,propose,implement
+  LIGHTHOUSE_AUTO_IMPLEMENT: true
   LIGHTHOUSE_COMPLETION_ENABLED: false
   LIGHTHOUSE_PRODUCT_CHANGE_ENABLED: false
 jobs:
